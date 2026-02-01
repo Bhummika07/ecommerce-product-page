@@ -6,11 +6,11 @@ const products = [
   { name: "TV", price: 700, rating: 4, category: "Electronics" },
   { name: "Camera", price: 600, rating: 5, category: "Electronics" },
 
-  { name: "T-Shirt", price: 1100, rating: 4, category: "Clothes" },
-  { name: "Jeans", price: 1500, rating: 5, category: "Clothes" },
-  { name: "Jacket", price: 4000, rating: 4, category: "Clothes" },
-  { name: "Top", price: 2000, rating: 5, category: "Clothes" },
-  { name: "Cap", price: 800, rating: 3, category: "Clothes" },
+  { name: "T-Shirt", price: 1100, rating: 4, category: "Clothing" },
+  { name: "Jeans", price: 1500, rating: 5, category: "Clothing" },
+  { name: "Jacket", price: 4000, rating: 4, category: "Clothing" },
+  { name: "Top", price: 2000, rating: 5, category: "Clothing" },
+  { name: "Cap", price: 800, rating: 3, category: "Clothing" },
 
   { name: "Book A", price: 1250, rating: 5, category: "Books" },
   { name: "Book B", price: 1150, rating: 4, category: "Books" },
@@ -94,3 +94,4 @@ function applyFilter() {
 }
 
 showProducts(displayProducts);
+
