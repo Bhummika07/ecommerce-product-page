@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-commerce Product Page</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 200px;
+      display: inline-block;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+<h2>Product List</h2>
+
+<select id="sort" onchange="applySort()">
+  <option value="">Sort</option>
+  <option value="priceAsc">Price(Low to High)</option>
+  <option value="priceDesc">Price(High to Low)</option>
+  <option value="nameAsc">Name(A-Z)</option>
+  <option value="nameDesc">Name(Z-A)</option>
+  <option value="ratingAsc">Rating(Low to High)</option>
+  <option value="ratingDesc">Rating(High to Low)</option>
+</select>
+
+<select id="category" onchange="applyFilter()">
+  <option value="All">Category</option>
+  <option value="Electronics">Electronics</option>
+  <option value="Clothing">Clothing</option>
+  <option value="Books">Books</option>
+  <option value="Furniture">Furniture</option>
+</select>
+<div id="products"></div>
+<script src="script.js"></script>
+</body>
+</html>
